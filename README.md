@@ -7,6 +7,9 @@ Please have a look at the link to the video below of how the application looks a
 We transfer Link:  https://we.tl/t-HErDLrFJmp
 
 
+Create, read, update, and delete (CRUD) tasks
+
+
 Screenshots below show how the system works
 
 List of Tasks Screen
