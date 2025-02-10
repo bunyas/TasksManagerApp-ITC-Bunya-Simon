@@ -1,0 +1,75 @@
+﻿
+API Endpoints
+
+1. Get All Tasks
+Endpoint: GET /api/tasks
+Description: Retrieves a list of all tasks.
+Response:
+[
+  {
+    "id": "int",
+    "title": "string",
+    "description": "string",
+    "status": "int",
+    "dueDate": "2025-02-10T00:00:00Z",
+    "priority": "int",
+    "createdAt": "2025-02-10T00:00:00Z",
+    "updatedAt": "2025-02-10T00:00:00Z"
+  }
+]
+
+2. Get Task by ID
+Endpoint: GET /api/tasks/{id}
+Description: Retrieves a task by its unique identifier.
+Response:
+{
+  "id": "int",
+  "title": "string",
+  "description": "string",
+  "status": "int",
+  "dueDate": "2025-02-10T00:00:00Z",
+  "priority": "int",
+  "createdAt": "2025-02-10T00:00:00Z",
+  "updatedAt": "2025-02-10T00:00:00Z"
+}
+
+3. Create a New Task
+Endpoint: POST /api/tasks
+Description: Creates a new task.
+Request Body:
+{
+  "title": "int",
+  "description": "string",
+  "status": "int",
+  "dueDate": "2025-02-10T00:00:00Z",
+  "priority": "int"
+}
+Response:
+{
+  "id": "int",
+  "title": "string",
+  "description": "string",
+  "status": "int",
+  "dueDate": "2025-02-10T00:00:00Z",
+  "priority": "int",
+  "createdAt": "2025-02-10T00:00:00Z",
+  "updatedAt": "2025-02-10T00:00:00Z"
+}
+
+4. Update an Existing Task
+Endpoint: PUT /api/tasks/{id}
+Description: Updates an existing task.
+Request Body:
+{
+  "title": "string",
+  "description": "string",
+  "status": "int",
+  "dueDate": "2025-02-10T00:00:00Z",
+  "priority": "int"
+}
+Response: 204 No Content
+
+5. Delete a Task
+Endpoint: DELETE /api/tasks/{id}
+Description: Deletes a task by its unique identifier.
+Response: 204 No Content

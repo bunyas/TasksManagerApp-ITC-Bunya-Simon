@@ -1,0 +1,101 @@
+﻿@model TaskManagerApp_Bunya.Models.Task
+@using Syncfusion.EJ2
+@using Newtonsoft.Json
+
+<div id="aclassDialog"></div>
+<div class="container" style="width:100%;  padding:5px">
+    <div class="accordion" id="myAccordion">
+       
+        <div class="card">
+            <div class="card-header" id="ActivityTimelines">
+                <h2 class="mb-0">
+                    <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne">
+                       Manage Task
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#myAccordion">
+                <div class="card-body">
+                    <div id="Timelines">
+                        <div class="panel-body">
+                            <div class="col-xs-3 col-sm-3 col-lg-3 col-md-3" hidden="hidden">
+                                <ejs-numerictextbox id="Id" ejs-for="Id" cssClass="e-outline" min="0" placeholder="Id" format="n0" floatLabelType="Auto" type="number"></ejs-numerictextbox>
+                            </div>
+                            <hr />
+                            <div class="row material2">
+                               
+                                <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                                    <strong style="font:x-large; font-size:xx-large">
+                                        <ejs-textbox id="Title" cssClass="e-outline" ejs-for="Title" value="@Model.Title" placeholder="Title (*)" enabled="true" floatLabelType="Always" type="text"></ejs-textbox>
+                                    </strong>
+                                </div>
+                                <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                                    <strong style="font:x-large; font-size:xx-large">
+                                        <ejs-datepicker id="DueDate" allowEdit="false" value="@Model.DueDate" ejs-for="DueDate" cssClass="e-outline" format="dd-MMM-yyyy" placeholder="Due Date" floatLabelType="Auto"></ejs-datepicker>
+                                    </strong>
+                                </div>
+
+                            </div>
+                            <hr />
+                            <div class="row material2">
+                                <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12">
+                                    <strong style="font:x-large; font-size:xx-large">
+                                        <ejs-textbox id="Description" cssClass="e-outline" multiline="true" ejs-for="Description" value="@Model.Description" placeholder="Description" enabled="true" floatLabelType="Always" type="text"></ejs-textbox>
+                                    </strong>
+                                </div>
+                            </div>
+                             <hr />
+                            <div class="row material2">
+                                <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                                    <ejs-dropdownlist id="Status" value="@Model.Status" cssClass="e-outline" ejs-for="Status" dataSource="@ViewBag.Status" placeholder="Status" filterBarPlaceholder="Status Type" allowFiltering="true" floatLabelType="Auto" popupHeight="300px">
+                                        <e-dropdownlist-fields text="Status" value="StatusId"></e-dropdownlist-fields>
+                                    </ejs-dropdownlist>
+                                </div>
+                                <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                                    <ejs-dropdownlist id="Priority" value="@Model.Priority" cssClass="e-outline" ejs-for="Priority" dataSource="@ViewBag.Priority" placeholder="Priority" filterBarPlaceholder="Priority Type" allowFiltering="true" floatLabelType="Auto" popupHeight="300px">
+                                        <e-dropdownlist-fields text="Priority" value="PriorityId"></e-dropdownlist-fields>
+                                    </ejs-dropdownlist>
+                                </div>
+                            </div>
+
+                            <hr />
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<ejs-scripts></ejs-scripts>
+<script id='dialogtemplate' type="text/x-template">
+    <div id="dialogTemp">
+    </div>
+</script>
+<script>
+    function onFileRemove(args) {
+        args.postRawFile = false;
+    }
+
+</script>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<style>
+    .dialogClass {
+        color: white;
+    }
+</style>
+<style>
+    .panel-default > .panel-heading {
+        background-color: #56ad61;
+        color: white;
+    }
+</style>
+
+
