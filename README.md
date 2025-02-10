@@ -2,7 +2,7 @@
 
 Simon Bunya
 
-Please have a look at the link to the Video of how the application looks and works on WeTransfer below.  I couldn't;t attach it because of file limits
+Please have a look at the link to the video below of how the application looks and works on WeTransfer. I couldn't;t attach it because of file limits
 
 We transfer Link:  https://we.tl/t-HErDLrFJmp
 
