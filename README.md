@@ -6,6 +6,9 @@ Please have a look at the link to the video below of how the application looks a
 
 We transfer Link:  https://we.tl/t-HErDLrFJmp
 
+
+Screenshots below show how the system works
+
 List of Tasks Screen
 
 ![Screenshot of the Task App](https://github.com/user-attachments/assets/a9115046-63dd-4764-8f7d-ef81b6f1386e)
