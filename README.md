@@ -11,6 +11,10 @@ Screenshots below show how the system works
 
 List of Tasks Screen
 
+![Tasks Screenshot](https://github.com/user-attachments/assets/c40ece99-f27b-422d-9c6b-3334e11f3a05)
+
+Tasks Screen
+
 ![Screenshot of the Task App](https://github.com/user-attachments/assets/a9115046-63dd-4764-8f7d-ef81b6f1386e)
 
 Add a new task screen
