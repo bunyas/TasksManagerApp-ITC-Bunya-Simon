@@ -16,15 +16,21 @@ Add a new task screen
 
 
 Delete record Confirmation screen
+
 ![Delete confirmation screen-shot](https://github.com/user-attachments/assets/acbab613-8bc6-438b-be43-f5bfe525b0ba)
 
+
 Edit a task record screen
+
 ![Edit a task screen shot](https://github.com/user-attachments/assets/667cd1e9-10cf-4fa1-8104-be18e5b31c1d)
 
+
 Search-Filter screen
+
 ![Search-Filter screenshot](https://github.com/user-attachments/assets/845f2a9f-7a21-4e0a-b2c6-e26a817d0999)
 
 Title confirmation required screen
+
 ![Title required ScreenShot](https://github.com/user-attachments/assets/87f4ec8f-959a-4773-bbd9-019d5ea0f5b1)
 
 
