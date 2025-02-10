@@ -1,5 +1,6 @@
 # TaskManagerApp-Bunya
-Simon Bunya>
+
+Simon Bunya
 
 
 Clear setup instructions for running the application locally.
