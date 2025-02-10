@@ -9,6 +9,23 @@ We transfer Link:  https://we.tl/t-HErDLrFJmp
 ![Screenshot of the Task App](https://github.com/user-attachments/assets/a9115046-63dd-4764-8f7d-ef81b6f1386e)
 
 
+![Add a new task screen](https://github.com/user-attachments/assets/22e3a674-b85d-443d-86fb-b01ab2bce976)
+
+
+
+![Delete confirmation screen-shot](https://github.com/user-attachments/assets/acbab613-8bc6-438b-be43-f5bfe525b0ba)
+
+
+![Edit a task screen shot](https://github.com/user-attachments/assets/667cd1e9-10cf-4fa1-8104-be18e5b31c1d)
+
+
+![Search-Filter screenshot](https://github.com/user-attachments/assets/845f2a9f-7a21-4e0a-b2c6-e26a817d0999)
+
+
+![Title required ScreenShot](https://github.com/user-attachments/assets/87f4ec8f-959a-4773-bbd9-019d5ea0f5b1)
+
+
+
 
 Clear setup instructions for running the application locally.
 
